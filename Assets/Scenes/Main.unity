@@ -34,12 +34,11 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 256
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 5
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 390959129}
-  m_IndirectSpecularColor: {r: 0.00029641922, g: 0.00030353552, b: 0.00028835537,
-    a: 1}
+  m_IndirectSpecularColor: {r: 0.0012945771, g: 0.0013256434, b: 0.0012593613, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
