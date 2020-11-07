@@ -53,7 +53,7 @@ public class Controller : MonoBehaviour
 
     private Vector3 Force()
     {
-        var force = new Vector3();
+        var force = new Vector3() * Time.deltaTime;
         if (Input.GetKey(KeyCode.W))
         {
             rb.AddRelativeForce(Vector3.forward * speed * throttle);
